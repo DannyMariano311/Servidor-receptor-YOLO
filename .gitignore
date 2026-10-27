@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+certs/
+*.pem
+*.key
+
+# Archivos generados y datos locales
+snapshots/
+runs/
+*.log
+
+# Pesos de modelos YOLO (descargar o proporcionar localmente)
+yolov*.pt
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
